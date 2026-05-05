@@ -2652,12 +2652,10 @@
               {
                 key: "loadConfig",
                 value: function (e) {
-                  (this.loadSettings("CSN/datasets/col_estudio/config.json")),
-                    this.loadBarData(
-                      "CSN/datasets/col_estudio/barData.json"),
-                    ),
+                  (this.loadSettings("CSN/datasets/col_estudio/config.json"),
+                    this.loadBarData("CSN/datasets/col_estudio/barData.json"),
                     this.loadMetadata(
-                      "CSN/datasets/col_estudio/metadata.json"),
+                      "CSN/datasets/col_estudio/metadata.json",
                     ));
                 },
               },
